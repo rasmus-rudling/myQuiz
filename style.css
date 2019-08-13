@@ -1,0 +1,96 @@
+*
+	{
+		font-family: Roboto;
+	}
+
+body
+	{
+		background-color: #f0f0f0;
+	}
+
+h2
+	{
+		font-size: 50px;
+		margin-top: 5px;
+	}
+
+#menu
+	{
+		height: 70px;
+		background-color: #232323;
+		color: #f0f0f0;
+	}
+
+.center-text
+	{
+		text-align: center;
+	}
+
+#quiz-row
+	{
+		margin-top: 30px;
+		padding: 0px;
+		border: 5px solid #232323;
+	}
+
+
+#fragor
+	{
+		background-color: #0d5f85;
+		color: #f0f0f0;
+		font-size: 30px;
+		padding-left: 20px;
+		padding-top: 7px;
+		text-align: center;
+	}
+
+#svar-ruta-1, #svar-ruta-2, #svar-ruta-3
+	{
+		background-color: #f0f0f0;
+		font-size: 40px;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		cursor: pointer;
+		user-select: none;
+	}
+
+#btn-next
+	{
+		margin: 15px 0 15px 0;
+		text-align: center;
+	}
+
+#questCount
+	{
+		float: right;
+	}
+
+
+#greeting
+	{
+		text-align: center;
+		margin-top: 15px;
+	}
+
+#summary
+	{
+		text-align: center;
+		padding-top: 15px;
+	}
+
+#progress-container
+	{
+		padding: 0px;
+		margin-top: 15px;
+	}
+
+.progress
+	{
+		height: 30px;
+	}
+
+.progress-bar
+	{
+		width: 33.3333333333%;
+	}

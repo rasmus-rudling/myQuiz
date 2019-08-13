@@ -1,0 +1,27 @@
+/***********/
+/* FRÅGA 1 */
+/***********/
+Vad har "3.0" för datatyp?
+- Svar 1: String
+- Svar 2: Integer
+- Svar 3: Float
+
+------------------------
+
+/***********/
+/* FRÅGA 2 */
+/***********/
+Hur skapar man en for-loop?
+- Svar 1: for(i++, i < 6; i = 0) {}
+- Svar 2: for(i+=1; 6 < i) {}
+- Svar 3: for(i = 0; i < 6; i++) {}
+
+------------------------
+
+/***********/
+/* FRÅGA 3 */
+/***********/
+Vilken av dessa är en lista/array?
+- Svar 1: var lista = {"Blue", "Gray"}
+- Svar 2: var lista = ["Blue", "Gray"]
+- Svar 3: var lista = ("Blue", "Gray")

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>QUIZ</title>
+
+		<!-- Här importerar vi css för bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<!-- Här importerar vi vår CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- Importera fonten Roboto från Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container-fluid" id="main-container">
+			<div class="row" id="menu">
+				<div class="col-12">
+					<h2 class="center-text">Ett javascript-quiz</h2>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-2">
+
+				</div>
+
+				<!-- Här är vår quiz-låda -->
+				<div class="col-8" id="quiz-row">
+					<div class="container-fluid" id="quiz-box">
+						<div class="row" id="fragor">
+							<div class="col-2">
+
+							</div>
+
+							<div class="col-8">
+								<h3 id="question">Vad har "3.0" för datatyp?</h3>
+							</div>
+
+							<div class="col-2">
+								<h3 id="questCount">#1</h3>
+							</div>
+						</div>
+
+						<div class="row">
+								<div class="col-4" id="svar-ruta-1">
+									String Yooooooo
+								</div>
+
+							<div class="col-4" id="svar-ruta-2">
+								Integer
+							</div>
+
+							<div class="col-4" id="svar-ruta-3">
+								Float
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12" id="btn-next">
+								<button type="button" class="btn btn-primary btn-lg" id="btn-next-inner" onclick="nextQuest()">Nästa</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Här har vår quiz-låda slutat -->
+			</div>
+
+			<div class="row">
+				<div class="col-2">
+
+				</div>
+
+				<div class="col-8" id="progress-container">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="33.3333333333" aria-valuemin="0" aria-valuemax="100" id="progress-bar-counter">
+							Fråga 1 av 3
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MODAL POPUP -->
+		<div class="modal fade" id="must-choose" tabindex="-1" role="dialog" aria-labelledby="must-choose" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="must-choose-label">Information</h5>
+
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						För att fortsätta med quizet måste du först välja ett alternativ!
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-dismiss="modal">Okej</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Här importerar vi javascript för bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- Här importerar vi vårt eget javascript -->
+		<script src="script.js"></script>
+	</body>
+
+
+</html>

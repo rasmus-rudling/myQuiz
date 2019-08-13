@@ -344,3 +344,5 @@ function startQuiz()
 	}
 
 main();
+
+console.log("Hej dä igen!!!!!!!!!");
